@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journée à Metz </title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #004080, #0077cc);
+            color: blue; /* Texte en bleu */
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 30px;
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            background-color: #005fa3;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background: #ffcc00;
+            color: #003366;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+            animation: slideUp 1s ease-in-out;
+        }
+
+        h2 {
+            color: #0077cc;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+            margin: 0 auto 20px auto;
+        }
+
+        img:hover {
+            transform: scale(1.08);
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Journée Metz
+    </header>
+
+    <nav>
+        <a href="index.html">Page de garde</a>
+        <a href="page 1.html">L'Atomium</a>
+        <a href="page 2.html">Concert de Slimane</a>
+		<a href="page 3.html">Bastogne War Museum</a>
+        <a href="page 4.html">Film d'auteur</a>
+        <a href="page 6.html">Musée Atlantique à Ostende</a>
+    </nav>
+	<section> <h2>Découverte de Metz et du Centre Pompidou</h2> 
+	<img src="../image/metz.jfif" alt="Vue de Metz et du Centre Pompidou">
+
+	<p>Metz, ville d’histoire et de modernité, séduit par son riche patrimoine et son dynamisme culturel. Située au cœur de la Lorraine, elle offre un cadre enchanteur où se mêlent architecture médiévale, jardins verdoyants et événements artistiques.</p>
+
+	<p>Parmi ses joyaux, le <strong>Centre Pompidou-Metz</strong> se distingue comme un emblème de l’art contemporain. Cette antenne du célèbre musée parisien est un véritable lieu d’innovation, abritant des expositions audacieuses et des installations immersives qui interrogent notre perception du monde et de la création artistique.</p>
+
+	<p>Mais Metz, c’est aussi une ville où la légende prend vie. Selon une histoire ancienne, le Graoully, un dragon terrifiant, aurait régné sur la cité avant d’être vaincu par Saint Clément, le premier évêque de Metz. Symbole de transformation et de courage, cette légende continue de fasciner et d’inspirer les habitants, intégrée au patrimoine culturel de la ville.</p>
+
+	<p>Entre patrimoine vivant, art contemporain et récits mythiques, Metz est une ville où l’histoire et la modernité s’entrelacent, offrant aux visiteurs une expérience unique et mémorable.</p> 
+	<embed src="../pdf/metz.pdf" width="800" height="500" type="application/pdf">
+	</section>
+	    <footer>
+        © 2025 - Tous droits réservés | Informations sur Journée à Metz
+    </footer>
+</body>
+</html>

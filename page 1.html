@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomium - Bruxelles</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #004080, #0077cc);
+            color: blue; /* Texte en bleu */
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 30px;
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            background-color: #005fa3;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background: #ffcc00;
+            color: #003366;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+            animation: slideUp 1s ease-in-out;
+        }
+
+        h2 {
+            color: #0077cc;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+            margin: 0 auto 20px auto;
+        }
+
+        img:hover {
+            transform: scale(1.08);
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        L'Atomium : Un Symbole de Bruxelles
+    </header>
+
+    <nav>
+        <a href="index.html">Page de garde</a>
+        <a href="page 2.html">Concert Slimane</a>
+        <a href="page 3.html">Bastogne War Museum</a>
+        <a href="page 4.html">Film d'auteur</a>
+        <a href="page 5.html">Journée à Metz</a>
+        <a href="page 6.html">Musée Atlantique à Ostende</a>
+    </nav>
+
+    <section>
+        <h2>Un Chef-d'Œuvre Architectural</h2>
+        <img src="../image/atomium.jpg" alt="Atomium - Bruxelles">
+        
+        <p>Construit pour l'Exposition universelle de 1958, l'Atomium est un symbole du progrès scientifique et de l'innovation technologique. Son design audacieux, représentant une molécule de fer agrandie 165 milliards de fois, est devenu une icône incontournable de Bruxelles.</p>
+        
+        <p>Mesurant 102 mètres de hauteur, ses neuf sphères interconnectées abritent aujourd'hui des expositions fascinantes, offrant une expérience immersive aux visiteurs.</p>
+        
+        <p>Parmi les attractions, un restaurant panoramique permet d’admirer une vue imprenable sur la ville. L’Atomium incarne un héritage culturel précieux, témoignant d’un optimisme tourné vers l’avenir.</p>
+    </section>
+
+    <!-- Ajout du lecteur audio -->
+    <audio controls> 
+        <source src="../audio/atomium.m4a" type="audio/mp4"> 
+        <source src="../audio/atomium.mp3" type="audio/mpeg"> 
+        Votre navigateur ne supporte pas l'élément audio. 
+    </audio>
+
+    <footer>
+        © 2025 - Tous droits réservés | Informations sur l'Atomium
+    </footer>
+</body>
+</html>
+
+
+
+
+
+

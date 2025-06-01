@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMusée Atlantique</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #004080, #0077cc);
+            color: blue; /* Texte en bleu */
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 30px;
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            background-color: #005fa3;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background: #ffcc00;
+            color: #003366;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+            animation: slideUp 1s ease-in-out;
+        }
+
+        h2 {
+            color: #0077cc;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+            margin: 0 auto 20px auto;
+        }
+
+        img:hover {
+            transform: scale(1.08);
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Musée Atlantique Ostende
+    </header>
+
+    <nav>
+        <a href="index.html">Page de garde</a>
+        <a href="page 1.html">L'Atomium</a>
+        <a href="page 2.html">Concert de Slimane</a>
+        <a href="page 3.html">Bastogne War Museum</a>
+		<a href="page 4.html">Film d'auteur</a>
+		<a href="page 5.html">Journée à Metz</a>
+    </nav>
+	<section> <h2>Le Musée Atlantikwall à Ostende : Une Plongée dans l’Histoire</h2> 
+	<img src="../image/ostende.jpg" alt="Vue du Musée Atlantikwall à Ostende">
+
+	<p>Situé sur la côte belge, le <strong>Musée Atlantikwall</strong> à Ostende offre une immersion captivante dans l’histoire militaire du XXe siècle. Niché dans les vestiges d’une fortification côtière de la Seconde Guerre mondiale, ce lieu fascinant témoigne de l’impact des conflits sur le territoire et de la stratégie défensive mise en place le long de la mer du Nord.</p>
+
+	<p>Les visiteurs peuvent explorer un réseau impressionnant de bunkers, tunnels et postes d’observation, restaurés avec soin pour refléter leur état d’origine. Grâce à une mise en scène immersive et des récits poignants, ce site permet de mieux comprendre la réalité des soldats qui ont occupé ces fortifications.</p>
+
+	<p>Mais Ostende, ce n’est pas seulement l’histoire militaire. C’est aussi une ville vibrante, où l’art et la mer s’entrelacent harmonieusement. De la célèbre <strong>Galerie Léopold</strong> aux vastes plages balayées par le vent, la cité côtière a su préserver son charme tout en offrant un regard profond sur son passé.</p>
+
+	<p>Entre mémoire historique et atmosphère maritime envoûtante, le Musée Atlantikwall d’Ostende invite les visiteurs à une réflexion sur les enjeux de la guerre et sur la beauté préservée du littoral belge.</p> 
+	
+	<embed src="../pdf/ostende.pdf" width="800" height="500" type="application/pdf">
+	</section>
+	    <footer>
+        © 2025 - Tous droits réservés | Informations sur Musée Atlantique à Ostende 
+    </footer>
+</body>
+</html>
