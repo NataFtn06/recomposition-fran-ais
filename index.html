@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dossier Culturel - Natanyel Fontaine</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #004080, #0077cc);
+        color: blue; /* Texte en bleu */
+        text-align: center;
+        animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .header {
+        background: rgba(0, 0, 0, 0.3);
+        padding: 50px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+        text-transform: uppercase;
+        animation: slideDown 1s ease-in-out;
+    }
+
+    .header h1 {
+        font-size: 44px;
+        letter-spacing: 3px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .header p {
+        font-size: 22px;
+        font-weight: 300;
+        margin-top: 15px;
+    }
+
+    .container {
+        width: 85%;
+        margin: 150px auto 60px;
+        background: rgba(255, 255, 255, 0.98);
+        padding: 50px;
+        border-radius: 20px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+        animation: slideUp 1s ease-in-out;
+    }
+
+    h2 {
+        color: #004080;
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .oeuvres {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .oeuvre {
+        padding: 25px;
+        border-radius: 15px;
+        background: linear-gradient(90deg, #0077cc, #005fa3);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+        transition: transform 0.4s ease-in-out, background 0.5s;
+        cursor: pointer;
+        width: 320px;
+    }
+
+    .oeuvre:hover {
+        transform: scale(1.12);
+        background: linear-gradient(90deg, #ffcc00, #ff7eb3);
+    }
+
+    .oeuvre a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 24px;
+        display: block;
+        padding: 15px;
+    }
+
+    .footer {
+        margin-top: 60px;
+        font-style: italic;
+        font-size: 20px;
+        opacity: 0.9;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+        from { opacity: 0; transform: translateY(40px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideDown {
+        from { opacity: 0; transform: translateY(-40px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Dossier Culturel</h1>
+        <p>Année scolaire 2024-2025 | Natanyel Fontaine</p>
+    </div>
+
+    <div class="container">
+        <h2>Explorez ces 6 œuvres culturelles captivantes</h2>
+
+        <div class="oeuvres">
+            <div class="oeuvre"><h3><a href="page 1.html">Œuvre 1 : Atomium</a></h3></div>
+            <div class="oeuvre"><h3><a href="page 2.html">Œuvre 2 : Concert Slimane</a></h3></div>
+            <div class="oeuvre"><h3><a href="page 3.html">Œuvre 3 : Bastogne War Museum</a></h3></div>
+            <div class="oeuvre"><h3><a href="page 4.html">Œuvre 4 : Film d'auteur</a></h3></div>
+            <div class="oeuvre"><h3><a href="page 5.html">Œuvre 5 : Journée à Metz</a></h3></div>
+            <div class="oeuvre"><h3><a href="page 6.html">Œuvre 6 : Musée Atlantique d'Ostende</a></h3></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        Page réalisée par Natanyel Fontaine – 2024-2025
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
